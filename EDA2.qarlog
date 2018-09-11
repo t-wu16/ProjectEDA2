@@ -1,0 +1,22 @@
+Quartus II Archive log --	F:/Quartus II/EDA2_FINAL/EDA2.qarlog
+
+Archive:	F:/Quartus II/EDA2_FINAL/EDA2.qar
+Date:		Sun Dec 31 16:36:08 2017
+Quartus II 64-Bit		13.0.0 Build 156 04/24/2013 SJ Full Version
+
+	=========== Files Selected: ===========
+F:/Quartus II/EDA2_FINAL/EDA2.bdf
+F:/Quartus II/EDA2_FINAL/EDA2.qpf
+F:/Quartus II/EDA2_FINAL/EDA2.qsf
+F:/Quartus II/EDA2_FINAL/EDA2_tb.v
+F:/Quartus II/EDA2_FINAL/display.v
+F:/Quartus II/EDA2_FINAL/display_tb.v
+F:/Quartus II/EDA2_FINAL/incremental_db/compiled_partitions/EDA2.db_info
+F:/Quartus II/EDA2_FINAL/keyboard.v
+F:/Quartus II/EDA2_FINAL/keyboard_tb.v
+F:/Quartus II/EDA2_FINAL/state_machine.v
+e:/altera/13.0/quartus/bin64/assignment_defaults.qdf
+	======= Total: 11 files to archive =======
+
+	================ Status: ===============
+All files archived successfully.

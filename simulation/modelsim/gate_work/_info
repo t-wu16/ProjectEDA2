@@ -1,0 +1,47 @@
+m255
+K3
+13
+cModel Technology
+Z0 dF:\Quartus II\EDA2_FINAL\simulation\modelsim
+vEDA2
+IflYa`T[22X3W`nOVgBR_U0
+VaJA3^KMgd5o3nHm1ej:[>2
+Z1 dF:\Quartus II\EDA2_FINAL\simulation\modelsim
+w1514707936
+8EDA2.vo
+FEDA2.vo
+L0 31
+Z2 OV;L;10.1d;51
+r1
+31
+Z3 o-vlog01compat -work work -O0
+n@e@d@a2
+!i10b 1
+!s100 7OGc=g?PebQN09NFD7K3L3
+!s85 0
+!s108 1514707944.816000
+!s107 EDA2.vo|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+.|EDA2.vo|
+!s101 -O0
+!s92 -vlog01compat -work work +incdir+. -O0
+vEDA2_tb
+!i10b 1
+!s100 FX>Ghc_k2fQYPmiG^BK9o2
+II^Bgc>1:aoQfXdK1B`IfW1
+V;LKSmaBHb:50j:@k]gPnj2
+R1
+w1514707925
+8F:/Quartus II/EDA2_FINAL/EDA2_tb.v
+FF:/Quartus II/EDA2_FINAL/EDA2_tb.v
+L0 2
+R2
+r1
+!s85 0
+31
+!s108 1514707945.074000
+!s107 F:/Quartus II/EDA2_FINAL/EDA2_tb.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+F:/Quartus II/EDA2_FINAL|F:/Quartus II/EDA2_FINAL/EDA2_tb.v|
+!s101 -O0
+R3
+!s92 -vlog01compat -work work {+incdir+F:/Quartus II/EDA2_FINAL} -O0
+n@e@d@a2_tb

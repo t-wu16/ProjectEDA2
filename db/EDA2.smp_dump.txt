@@ -1,0 +1,24 @@
+
+State Machine - |EDA2|state_machine:inst|current_state
+Name current_state.TWO current_state.ONE current_state.START current_state.INITIAL current_state.CHARGE 
+current_state.INITIAL 0 0 0 0 0 
+current_state.START 0 0 1 1 0 
+current_state.ONE 0 1 0 1 0 
+current_state.TWO 1 0 0 1 0 
+current_state.CHARGE 0 0 0 1 1 
+
+State Machine - |EDA2|display:inst2|current_state
+Name current_state.DISP3 current_state.DISP2 current_state.DISP1 current_state.DISP0 
+current_state.DISP0 0 0 0 0 
+current_state.DISP1 0 0 1 1 
+current_state.DISP2 0 1 0 1 
+current_state.DISP3 1 0 0 1 
+
+State Machine - |EDA2|keyboard:inst22|current_state
+Name current_state.KEY_PRESSED current_state.SCAN_COL0 current_state.SCAN_COL1 current_state.SCAN_COL2 current_state.SCAN_COL3 current_state.NO_KEY_PRESSED 
+current_state.NO_KEY_PRESSED 0 0 0 0 0 0 
+current_state.SCAN_COL3 0 0 0 0 1 1 
+current_state.SCAN_COL2 0 0 0 1 0 1 
+current_state.SCAN_COL1 0 0 1 0 0 1 
+current_state.SCAN_COL0 0 1 0 0 0 1 
+current_state.KEY_PRESSED 1 0 0 0 0 1 

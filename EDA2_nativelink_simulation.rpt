@@ -1,0 +1,76 @@
+Info: Start Nativelink Simulation process
+
+========= EDA Simulation Settings =====================
+
+Sim Mode              :  Gate
+Family                :  cycloneii
+Quartus root          :  e:/altera/13.0/quartus/bin64/
+Quartus sim root      :  e:/altera/13.0/quartus/eda/sim_lib
+Simulation Tool       :  modelsim-altera
+Simulation Language   :  verilog
+Simulation Mode       :  GUI
+Sim Output File       :  EDA2.vo
+Sim SDF file          :  EDA2__verilog.sdo
+Sim dir               :  simulation\modelsim
+
+=======================================================
+
+Info: Starting NativeLink simulation with ModelSim-Altera software
+Sourced NativeLink script e:/altera/13.0/quartus/common/tcl/internal/nativelink/modelsim.tcl
+Warning: File EDA2_run_msim_gate_verilog.do already exists - backing up current file as EDA2_run_msim_gate_verilog.do.bak11
+Probing transcript
+ModelSim-Altera Info: # Reading E:/altera/13.0/modelsim_ase/tcl/vsim/pref.tcl 
+ModelSim-Altera Info: # do EDA2_run_msim_gate_verilog.do 
+ModelSim-Altera Info: # if {[file exists gate_work]} {
+ModelSim-Altera Info: # 	vdel -lib gate_work -all
+ModelSim-Altera Info: # }
+ModelSim-Altera Info: # vlib gate_work
+ModelSim-Altera Info: # vmap work gate_work
+ModelSim-Altera Info: # Copying E:\altera\13.0\modelsim_ase\win32aloem/../modelsim.ini to modelsim.ini
+ModelSim-Altera Info: # Modifying modelsim.ini
+ModelSim-Altera Warning: # ** Warning: Copied E:\altera\13.0\modelsim_ase\win32aloem/../modelsim.ini to modelsim.ini.
+ModelSim-Altera Info: #          Updated modelsim.ini.
+ModelSim-Altera Info: # 
+ModelSim-Altera Info: # vlog -vlog01compat -work work +incdir+. {EDA2.vo}
+ModelSim-Altera Info: # Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+ModelSim-Altera Info: # -- Compiling module EDA2
+ModelSim-Altera Info: # 
+ModelSim-Altera Info: # Top level modules:
+ModelSim-Altera Info: # 	EDA2
+ModelSim-Altera Info: # 
+ModelSim-Altera Info: # vlog -vlog01compat -work work +incdir+F:/Quartus\ II/EDA2_FINAL {F:/Quartus II/EDA2_FINAL/EDA2_tb.v}
+ModelSim-Altera Info: # Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+ModelSim-Altera Info: # -- Compiling module EDA2_tb
+ModelSim-Altera Info: # 
+ModelSim-Altera Info: # Top level modules:
+ModelSim-Altera Info: # 	EDA2_tb
+ModelSim-Altera Info: # 
+ModelSim-Altera Info: # vsim -t 1ps -L cycloneii_ver -L gate_work -L work -voptargs="+acc"  EDA2_tb
+ModelSim-Altera Info: # vsim -L cycloneii_ver -L gate_work -L work -voptargs=\"+acc\" -t 1ps EDA2_tb 
+ModelSim-Altera Info: # Loading work.EDA2_tb
+ModelSim-Altera Info: # Loading work.EDA2
+ModelSim-Altera Info: # Loading cycloneii_ver.cycloneii_lcell_ff
+ModelSim-Altera Info: # Loading cycloneii_ver.cycloneii_lcell_comb
+ModelSim-Altera Info: # Loading cycloneii_ver.cycloneii_io
+ModelSim-Altera Info: # Loading cycloneii_ver.cycloneii_mux21
+ModelSim-Altera Info: # Loading cycloneii_ver.cycloneii_dffe
+ModelSim-Altera Info: # Loading cycloneii_ver.cycloneii_asynch_io
+ModelSim-Altera Info: # Loading cycloneii_ver.cycloneii_clkctrl
+ModelSim-Altera Info: # Loading cycloneii_ver.cycloneii_mux41
+ModelSim-Altera Info: # Loading cycloneii_ver.cycloneii_ena_reg
+ModelSim-Altera Info: # Loading cycloneii_ver.CYCLONEII_PRIM_DFFE
+ModelSim-Altera Info: # 
+ModelSim-Altera Info: # add wave *
+ModelSim-Altera Info: # view structure
+ModelSim-Altera Info: # .main_pane.structure.interior.cs.body.struct
+ModelSim-Altera Info: # view signals
+ModelSim-Altera Info: # .main_pane.objects.interior.cs.body.tree
+ModelSim-Altera Info: # run -all
+ModelSim-Altera Info: # ** Note: $finish    : F:/Quartus II/EDA2_FINAL/EDA2_tb.v(60)
+ModelSim-Altera Info: #    Time: 25600 ns  Iteration: 0  Instance: /EDA2_tb
+ModelSim-Altera Info: # 1
+ModelSim-Altera Info: # Break in Module EDA2_tb at F:/Quartus II/EDA2_FINAL/EDA2_tb.v line 60
+ModelSim-Altera Info: # Simulation Breakpoint: 1
+ModelSim-Altera Info: # Break in Module EDA2_tb at F:/Quartus II/EDA2_FINAL/EDA2_tb.v line 60
+ModelSim-Altera Info: # MACRO ./EDA2_run_msim_gate_verilog.do PAUSED at line 17
+Info: NativeLink simulation flow was successful

@@ -1,0 +1,54 @@
+# Reading E:/altera/13.0/modelsim_ase/tcl/vsim/pref.tcl 
+# do EDA2_run_msim_gate_verilog.do 
+# if {[file exists gate_work]} {
+# 	vdel -lib gate_work -all
+# }
+# vlib gate_work
+# vmap work gate_work
+# Copying E:\altera\13.0\modelsim_ase\win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# ** Warning: Copied E:\altera\13.0\modelsim_ase\win32aloem/../modelsim.ini to modelsim.ini.
+#          Updated modelsim.ini.
+# 
+# vlog -vlog01compat -work work +incdir+. {EDA2.vo}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module EDA2
+# 
+# Top level modules:
+# 	EDA2
+# 
+# vlog -vlog01compat -work work +incdir+F:/Quartus\ II/EDA2_FINAL {F:/Quartus II/EDA2_FINAL/EDA2_tb.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module EDA2_tb
+# 
+# Top level modules:
+# 	EDA2_tb
+# 
+# vsim -t 1ps -L cycloneii_ver -L gate_work -L work -voptargs="+acc"  EDA2_tb
+# vsim -L cycloneii_ver -L gate_work -L work -voptargs=\"+acc\" -t 1ps EDA2_tb 
+# Loading work.EDA2_tb
+# Loading work.EDA2
+# Loading cycloneii_ver.cycloneii_lcell_ff
+# Loading cycloneii_ver.cycloneii_lcell_comb
+# Loading cycloneii_ver.cycloneii_io
+# Loading cycloneii_ver.cycloneii_mux21
+# Loading cycloneii_ver.cycloneii_dffe
+# Loading cycloneii_ver.cycloneii_asynch_io
+# Loading cycloneii_ver.cycloneii_clkctrl
+# Loading cycloneii_ver.cycloneii_mux41
+# Loading cycloneii_ver.cycloneii_ena_reg
+# Loading cycloneii_ver.CYCLONEII_PRIM_DFFE
+# 
+# add wave *
+# view structure
+# .main_pane.structure.interior.cs.body.struct
+# view signals
+# .main_pane.objects.interior.cs.body.tree
+# run -all
+# ** Note: $finish    : F:/Quartus II/EDA2_FINAL/EDA2_tb.v(60)
+#    Time: 25600 ns  Iteration: 0  Instance: /EDA2_tb
+# 1
+# Break in Module EDA2_tb at F:/Quartus II/EDA2_FINAL/EDA2_tb.v line 60
+# Simulation Breakpoint: 1
+# Break in Module EDA2_tb at F:/Quartus II/EDA2_FINAL/EDA2_tb.v line 60
+# MACRO ./EDA2_run_msim_gate_verilog.do PAUSED at line 17
